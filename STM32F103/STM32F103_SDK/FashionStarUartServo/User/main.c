@@ -10,8 +10,8 @@ int main(void)
   SysTick_Init();           // 系统时钟初始化
   Usart_Init();              // 串口初始化
 	
- 	FSUSExample_PingServo();		// <---   update here
-//	FSUSExample_SetServoAngle();
+ 	FSUSExample_PingServo();
+	
 	while(1)
 	{
 		
